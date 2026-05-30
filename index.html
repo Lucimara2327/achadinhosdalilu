@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achadinhos da Lilu — Produtos Selecionados com Carinho 💜</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Achadinhos da Lilu — produtos selecionados com carinho, qualidade e bom preço. Beleza, moda, casa, eletrônicos e muito mais!">
+  <meta name="keywords" content="achadinhos, produtos baratos, ofertas, afiliados, beleza, moda, casa, decoração">
+  <meta name="author" content="Achadinhos da Lilu">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Pinterest -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Achadinhos da Lilu 💜">
+  <meta property="og:description" content="Os melhores achadinhos para você! Produtos selecionados com carinho, qualidade e bom preço.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=800&q=80">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="Achadinhos da Lilu">
+  <meta name="pinterest-rich-pin" content="true">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Achadinhos da Lilu 💜">
+  <meta name="twitter:description" content="Produtos selecionados com carinho, qualidade e bom preço.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💜</text></svg>">
+
+  <!-- Fonts & CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── HEADER ─────────────────────────────────────────── -->
+  <header id="header">
+    <div class="logo">
+      <img src="logo.png" alt="Achadinhos da Lilu" style="height:48px;width:48px;object-fit:contain;border-radius:8px;">
+      <div>
+        <span class="logo-text">Achadinhos da Lilu</span>
+        <span class="logo-sub">produtos com carinho</span>
+      </div>
+    </div>
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <!-- ── OVERLAY ────────────────────────────────────────── -->
+  <div id="overlay"></div>
+
+  <!-- ── SIDE MENU ──────────────────────────────────────── -->
+  <nav id="side-menu" role="navigation" aria-label="Menu principal">
+    <div class="menu-header">
+      <button class="menu-close" id="menu-close" aria-label="Fechar menu">✕</button>
+      <div class="menu-logo">
+        💜 Achadinhos da Lilu
+        <span>produtos com carinho</span>
+      </div>
+    </div>
+
+    <div class="menu-nav">
+      <a href="#" id="nav-inicio"><span class="nav-icon">🏠</span> Início</a>
+      <a href="#" id="nav-cats"><span class="nav-icon">🗂</span> Categorias</a>
+      <a href="#" id="nav-ofertas"><span class="nav-icon">⭐</span> Ofertas do Dia</a>
+      <a href="https://whatsapp.com/channel/0029Vb8CVP9JP217DRAExy35" target="_blank" rel="noopener"><span class="nav-icon">💬</span> Canal WhatsApp</a>
+      <a href="https://pin.it/4AqohtkwV" target="_blank" rel="noopener"><span class="nav-icon">📌</span> Pinterest</a>
+      <a href="#" id="nav-sobre"><span class="nav-icon">💜</span> Sobre</a>
+    </div>
+
+    <div class="menu-cats">
+      <div class="menu-cats-title">Filtrar por Categoria</div>
+      <div class="cat-chips">
+        <span class="cat-chip" data-cat="Beleza">💄 Beleza</span>
+        <span class="cat-chip" data-cat="Perfumes">🌸 Perfumes</span>
+        <span class="cat-chip" data-cat="Moda">👗 Moda</span>
+        <span class="cat-chip" data-cat="Casa">🏡 Casa</span>
+        <span class="cat-chip" data-cat="Cozinha">🍳 Cozinha</span>
+        <span class="cat-chip" data-cat="Eletrônicos">📱 Eletrônicos</span>
+        <span class="cat-chip" data-cat="Decoração">🖼 Decoração</span>
+        <span class="cat-chip" data-cat="Utilidades">🧰 Utilidades</span>
+        <span class="cat-chip" data-cat="Presentes">🎁 Presentes</span>
+        <span class="cat-chip" data-cat="Promoções">🔥 Promoções</span>
+      </div>
+    </div>
+
+    <div class="menu-footer">
+      <div class="menu-social">
+        <a class="social-btn social-wa" href="https://whatsapp.com/channel/0029Vb8CVP9JP217DRAExy35" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="social-btn social-pt" href="https://pin.it/4AqohtkwV" target="_blank" rel="noopener">📌 Pinterest</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── MAIN ───────────────────────────────────────────── -->
+  <main id="main">
+
+    <!-- Hero Banner -->
+    <section id="hero">
+      <div class="hero-badge">✨ Novidades toda semana</div>
+      <h1 class="hero-title">Os melhores achadinhos<br>para você 💜</h1>
+      <p class="hero-sub">Produtos selecionados com carinho, qualidade e bom preço.</p>
+      <button class="hero-btn" id="hero-btn">Ver Ofertas ↓</button>
+    </section>
+
+    <!-- Search -->
+    <div id="search-section">
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="search" id="search-input" placeholder="Buscar produtos, categorias…" autocomplete="off">
+        <button class="search-clear" id="search-clear" aria-label="Limpar busca">✕</button>
+      </div>
+    </div>
+
+    <!-- Offers of the Day -->
+    <section class="section" id="offers-section">
+      <div class="section-header">
+        <h2 class="section-title">⭐ Ofertas do Dia</h2>
+      </div>
+      <div class="offers-grid" id="offers-grid"></div>
+    </section>
+
+    <!-- All Products -->
+    <section class="section" id="products-section">
+      <div class="section-header">
+        <h2 class="section-title">🛍 Produtos</h2>
+      </div>
+      <div id="filter-bar" class="active-filter-bar"></div>
+      <div class="products-grid" id="products-grid"></div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about-section">
+      <img src="logo.png" alt="Achadinhos da Lilu" style="width:100px;height:100px;object-fit:contain;margin:0 auto 16px;display:block;">
+      <h2 class="about-title">Achadinhos da Lilu</h2>
+      <p class="about-text">
+        💜 O Achadinhos da Lilu reúne produtos, ofertas e oportunidades de diversas categorias em um só lugar. 
+        Nosso objetivo é ajudar você a encontrar itens interessantes, novidades e promoções de forma simples, 
+        rápida e organizada. Siga também no Pinterest e no Canal do WhatsApp para não perder nenhuma novidade!
+      </p>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ──────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-logo">Achadinhos da Lilu</div>
+    <p class="footer-tagline">Achadinhos selecionados com carinho 💜</p>
+    <div class="footer-links">
+      <a class="footer-link footer-link-wa" href="https://whatsapp.com/channel/0029Vb8CVP9JP217DRAExy35" target="_blank" rel="noopener">
+        💬 Canal WhatsApp
+      </a>
+      <a class="footer-link footer-link-pt" href="https://pin.it/4AqohtkwV" target="_blank" rel="noopener">
+        📌 Pinterest
+      </a>
+    </div>
+    <p class="footer-copy">© 2026 Achadinhos da Lilu — Todos os direitos reservados</p>
+    <a href="admin.html" class="admin-tiny">admin</a>
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
